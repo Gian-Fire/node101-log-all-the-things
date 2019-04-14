@@ -1,23 +1,36 @@
 {
   "name": "log-all-the-things",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha test --exit",
     "start": "node server/index.js"
   },
-  "author": "",
+  "author": "GianFiyah",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11"
   },
   "devDependencies": {
     "chai": "^4.0.2",
-    "chai-http": "^3.0.0",
+    "chai-http": "^4.2.1",
     "express": "^4.15.3",
-    "mocha": "^3.4.2",
+    "mocha": "^6.1.3",
     "moment": "^2.18.1",
     "sinon": "^2.3.8"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanDiegoCodeSchool/node101-log-all-the-things.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanDiegoCodeSchool/node101-log-all-the-things/issues"
+  },
+  "homepage": "https://github.com/SanDiegoCodeSchool/node101-log-all-the-things#readme",
+  "description": ""
 }
